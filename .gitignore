@@ -1,0 +1,83 @@
+# Perplexity AI GUI Client - .gitignore
+
+# Sensitive Files - DO NOT COMMIT
+pplx_api_key.txt
+*.key
+*.secret
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Application Specific
+auto_saves/
+exports/
+logs/
+.qodo/
+
+# User Settings (optional - you can commit settings.json if you want)
+# settings.json
+
+# Temporary Files
+*.tmp
+*.temp
+*.log
+
+# Windows
+$RECYCLE.BIN/
+Desktop.ini
+
+# macOS
+.AppleDouble
+.LSOverride
+
+# Linux
+*~
+
+# Editor backups
+*.bak
+*.backup
